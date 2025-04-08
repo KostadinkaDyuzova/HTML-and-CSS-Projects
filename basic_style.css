@@ -89,7 +89,7 @@ transition: transform .5s ease-in-out;
  @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url(./Icons/icon2.png);
+        background-image: url("./Icons/icon2.png");
     }
     50% {
         transform: translateY(300px);
