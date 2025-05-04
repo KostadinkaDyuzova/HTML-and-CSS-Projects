@@ -14,7 +14,7 @@ Projects
 - Movie Theater Site
 
 ZOO SITE
-This page is an example home page for a Zoo. It's styled using CSS and contains a navbar, image container, and a form.
+- This page is an example home page for a Zoo. It's styled using CSS and contains a navbar, image container, and a form.
 
 MOVIE THEATER SITE
-This page is an example home page for a Movie theater that is styled using Boostrap 4. It contains many Boostrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+- This page is an example home page for a Movie theater that is styled using Boostrap 4. It contains many Boostrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
