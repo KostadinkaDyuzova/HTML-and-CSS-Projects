@@ -25,13 +25,5 @@ form input [type="text"] {
     border: 2px solid burlywood;
     border-radius: 8px;
     align-self: center;
-    text-align: center;
-    align-content: center;
-}
-.about {
-    text-align: center;
- font-family: 'Gill Sans',  sans-serif;
-}
-p {
-    align-items: center;
+    
 }
