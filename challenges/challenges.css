@@ -1,0 +1,159 @@
+.center { /* image is center with display block and auto margin, rounded edges with border radius*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%%;
+    height: auto;
+    border: 5px solid orange;
+    border-radius: 50px;
+    padding-top: 30px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  z-index: -1;
+  position: relative;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content{
+    position: relative;
+    width: 50%;
+}
+.content:hover .center{
+opacity: 0.3;
+}
+
+.content:hover .middle{
+    opacity: 1;
+}
+.text{
+    background-color: bisque;
+    color: blue;
+    font-size: 18px;
+    padding: 18px 36px;
+}
+
+ img {
+    filter: grayscale(20%);
+   
+ }
+
+ footer {
+    text-align: center;
+    font-weight: bold;
+ }
+
+ table, th, td {
+    border: 2px solid green;
+    padding: 10px;
+ }
+ th {
+    text-align: center;
+    background-color: beige;
+    border: 5px solid green;
+    
+ }
+ .container {
+    position: relative;
+    text-align: center;
+    color:aliceblue;
+ }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-weight: bold;
+  }
+.navbar{
+    overflow: hidden;
+    float: left;
+    display: block;
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  
+
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+}
+.column {
+    float: left;
+    height: 300px;
+    width: 50%;
+    color: blue;
+  
+}
+.left{
+    background-color:bisque;
+}
+.right {
+    background-color: pink;
+}
+ 
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.pp:hover{
+    background-color: aquamarine;
+    font-size: 14px;
+}
+
+video{
+    width: 50%;
+}
+.vd { /* image is center with display block and auto margin, rounded edges with border radius*/
+    display: block;
+    width: 100%;
+    height: auto;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.medium{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.cube{
+    position: relative;
+    width: 50%;
+}
+.cube:hover .vd{
+opacity: 0.3;
+}
+
+.cube:hover .medium{
+    opacity: 1;
+}
+.tx{
+    background-color: bisque;
+    color: blue;
+    font-size: 12px;
+    padding: 12px 24px;
+    text-align: left;
+}
