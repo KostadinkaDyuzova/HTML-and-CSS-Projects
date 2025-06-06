@@ -3,7 +3,8 @@
 <head>
 <title>Kids Club</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/one_page_website.css"
+<link rel="stylesheet" href="css/one_page_website.css">
+<script src="JS/one_page_website.js"></script>
 </head>
 <body>
 <h1>KIDS CLUB</h1>
@@ -38,72 +39,89 @@ src="https://www.youtube.com/embed/RWH8_tvsMBc">
     <div id="gallery">
         <h2>GALLERY</h2>
     <div>
-    <!-- Photo-container 1 -->
-     <div>
-        <div>
-            <img src="./images/kid_1.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+    <!-- Photo-container -->
+     <div class="row">
+        <div class="column">
+            <img src="images/kid_1 - Copy.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
         </div>
-     </div>
-       <!-- END Photo-container 1 -->
-<!-- Photo-container 2 -->
-     <div>
-        <div>
-            <img src="./images/kid_2.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+        <div class="column">
+            <img src="images/kid_2 - Copy.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
         </div>
-     </div>
-       <!-- END Photo-container 2 -->
-<!-- Photo-container 3 -->
-     <div>
-        <div>
-            <img src="./images/kid_3.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+        <div class="column">
+            <img src="images/kid_3 - Copy.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
         </div>
-     </div>
-       <!-- END Photo-container 3 -->
-<!-- Photo-container 4 -->
-     <div>
-        <div>
-            <img src="./images/kid_4.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+        <div class="column">
+            <img src="images/kid_4 - Copy.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
         </div>
-     </div>
-       <!-- END Photo-container 4 -->
-<!-- Photo-container 5 -->
-     <div>
-        <div>
-            <img src="./images/kid_5.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+        <div class="column">
+            <img src="images/kid_5 - Copy.PNG" onclick="openModal();currentSlide(5)" class="hover-shadow">
         </div>
-     </div>
-       <!-- END Photo-container 5 -->
-<!-- Photo-container 6 -->
-     <div>
-        <div>
-            <img src="./images/kid_6.png" alt="Kids club">
-            <div>
-                <h3>Click to Enlarge</h3>
-          
-            </div>
+        <div class="column">
+            <img src="images/kid_6 - Copy.PNG" onclick="openModal();currentSlide(6)" class="hover-shadow">
         </div>
+
      </div>
-       <!-- END Photo-container 6 -->
+
+     <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/kid_1.PNG" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/kid_2.PNG" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/kid_3.PNG" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/kid_4.PNG" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/kid_5.PNG" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/kid_6.PNG" style="width: 100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+
+            </div>
+
+            <!--Thumbnail image controls-->
+            <div class="column">
+                <img class="demo" src="images/kid_1 - Copy.PNG" onclick="currentSlide(1)" alt="Kids 1">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/kid_2 - Copy.PNG" onclick="currentSlide(2)" alt="Kids 2">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/kid_3 - Copy.PNG" onclick="currentSlide(3)" alt="Kids 3">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/kid_4 - Copy.PNG" onclick="currentSlide(4)" alt="Kids 4">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/kid_5 - Copy.PNG" onclick="currentSlide(5)" alt="Kids 5">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/kid_6 - Copy.PNG" onclick="currentSlide(6)" alt="Kids 6">
+            </div>
+
+        </div>
+
+     </div>
+       <!-- END Photo-container -->
 </div>
     </div>
    
